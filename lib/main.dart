@@ -58,7 +58,6 @@ class _MyAppState extends State<MyApp> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("Yo"),
                   Text(
                     "Hello",
                     style: TextStyle(
@@ -68,7 +67,7 @@ class _MyAppState extends State<MyApp> {
                         fontFamily: 'Times New Roman'
                     ),
                   ),
-                  Text("Bye"),
+                  Text("Welcome to my first experience at Flutter!"),
                   SizedBox(height: 30,
                   ),
 
